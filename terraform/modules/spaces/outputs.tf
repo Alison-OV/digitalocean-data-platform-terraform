@@ -1,0 +1,4 @@
+output "bucket_name" {
+    value = digitalocean_spaces_bucket.this.name
+    description = "Spaces bucket name"
+}
